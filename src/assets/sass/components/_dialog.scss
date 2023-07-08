@@ -1,0 +1,7 @@
+.p-dialog-header, .p-dialog-content {
+    .dark & {
+        background: $colorBgDark !important;
+    }
+
+    background: $colorBgLight !important;
+}

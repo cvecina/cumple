@@ -1,0 +1,15 @@
+.p-confirm-dialog {
+    .dark & {
+        background: $colorBgDark !important;
+    }
+
+    background: $colorBgLight !important;
+}
+
+.p-dialog-footer{
+    .dark & {
+        background: $colorBgDark !important;
+    }
+
+    background: $colorBgLight !important;
+}

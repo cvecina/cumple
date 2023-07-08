@@ -1,0 +1,35 @@
+.p-datatable-header,
+.p-datatable-table,
+.p-paginator-bottom,
+.p-paginator {
+    .dark & {
+        background-color: $colorBgDark !important;
+        color: white !important;
+    }
+
+    background-color: $colorBgLight !important;
+    color: black !important;
+}
+
+.p-paginator-pages {
+    .dark & {
+        background-color: $colorBgDark !important;
+        color: white !important;
+    }
+
+    background-color: $colorBgLight !important;
+    color: black !important;
+}
+
+.p-paginator-element {
+    background-color: white !important;
+}
+
+.p-datatable-thead>tr>th,
+.p-datatable-tbody>tr>td {
+    .dark & {
+        background-color: $colorBgDark !important;
+    }
+
+    background-color: $colorBgLight !important;
+}

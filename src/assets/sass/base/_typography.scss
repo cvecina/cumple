@@ -1,0 +1,69 @@
+/* ********* */
+
+/* @TYPOGRAPHY */
+
+/* ********* */
+
+@import './../abstracts/variables';
+
+h1 {
+    .dark & {
+        color: $primarydark !important;
+
+    }
+
+    font-family: map-get($map: $fonts, $key: primary) !important;
+    font-size: map-get($map: $fontSize, $key: h1);
+    color: $primaryLight !important;
+    @media screen and (max-width: 768px) {
+        font-size: 3rem;
+    }
+}
+
+h2 {
+    .dark & {
+        color: $secondarydark !important;
+
+    }
+
+    font-family: map-get($map: $fonts, $key: primary) !important;
+    font-size: 2.5rem;
+    color: $secondaryLight !important;
+    // media query font-size 2rem
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;
+    }
+}
+
+h3 {
+    .dark & {
+        color: $terciarydark !important;
+
+    }
+
+    font-family: map-get($map: $fonts, $key: primary) !important;
+    font-size: 2rem;
+    color: $terciaryLight !important;
+}
+
+p {
+    .dark & {
+        color: $textoDefaultDark !important;
+
+    }
+
+    font-family: map-get($map: $fonts, $key: primary) !important;
+    font-size: 1.3rem;
+    color: $textoDefault !important;
+}
+
+a {
+    .dark & {
+        color: $textoDefaultDark !important;
+
+    }
+
+    font-family: map-get($map: $fonts, $key: arial) !important;
+    font-size: 1rem;
+    color: $textoDefault !important;
+}

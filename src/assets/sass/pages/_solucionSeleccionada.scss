@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+
+    .sol__header {}
+
+    .sol__description {}
+
+    .datos__solucion {
+
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: column;
+
+
+        .solucion__requisitos {}
+    }
+
+    .sol__precio {
+        .dark & {
+            background-color: $terciarydark;
+        }
+
+        background-color: $terciaryLight;
+        // padding: 1em;
+        // font-size: 1.5em;
+        width: 100vw;
+    }
+
+    .solucion__importe {
+        .dark & {
+            background-color: $terciarydark;
+        }
+
+        background-color: $terciaryLight;
+        width: 100vw;
+
+    }
+}
